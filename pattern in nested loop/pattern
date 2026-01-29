@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    int temp = n - 1;
+    int b = 65;
+    int sum = b + temp;
+    int a;
+
+    int count = 1;
+
+    for (int i = 65; i < 65 + n; i++)
+    {
+        count++;
+
+        for (int l = 65; l <= i; l++)
+        {
+
+            if (l >= 'A' && l <= 'Z')
+            {
+                printf(" %c", sum);
+            }
+            sum++;
+        }
+        sum -= count;
+
+        printf("\n");
+    }
+
+    return 0;
+}

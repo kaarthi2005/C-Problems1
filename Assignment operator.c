@@ -12,7 +12,7 @@ int main (){
     int a = 0;
     printf("%d",a);
 
-    //2. using += 
+    //2. using +==
 
     int a = 10;
     int b =5 ;

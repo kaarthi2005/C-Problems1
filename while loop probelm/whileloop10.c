@@ -19,7 +19,7 @@ int main(){
             count1++;
         }
     }
-    printf("Inactive Weeks: %d\n",count);
+    printf("Inactivee Weeks: %d\n",count);
     if(count==count1 || count > count1){
         printf("Risk Status: High");
     }

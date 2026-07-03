@@ -18,7 +18,7 @@ int main()
             count++;
         }
     }
-    printf("Total Delayed : %d\n", sum);
+    printf("Total  Delayed : %d\n", sum);
     printf("Delayed days : %d", count);
 
     return 0;

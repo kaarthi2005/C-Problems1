@@ -24,7 +24,7 @@ int main (){
     printf("%0.1f\n",c);
     printf("%0.2f\n",c1);
 
-   // 5. Change variable value and print updated value
+   // 5. Change variables value and print updated value
 
    int d = 10;
    d =20;

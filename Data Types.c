@@ -11,7 +11,7 @@ int main(){
 
     
 
-    //3. Print double variable
+    //3. Print double variable 
 
     double num1 = 12.345;
     printf("%lf\n", num1);

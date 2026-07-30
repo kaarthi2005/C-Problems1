@@ -14,7 +14,7 @@ int main (){
     scanf("%d %d",&a,&b);
 
     int total = power(a,b);
-    printf("%d",total);
+    printf("%d ",total);
 
     return 0;
 }

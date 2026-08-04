@@ -15,7 +15,7 @@ void offset(char str[]){
 int main (){
     
 
-    char str[1000];
+    char str[10000];
     fgets(str,sizeof(str),stdin);
 
     offset(str);

@@ -21,7 +21,7 @@ int main()
             }
         }
     }
-    printf("%d", gcd);
+    printf(" %d", gcd);
 
     return 0;
 }

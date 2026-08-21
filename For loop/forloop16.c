@@ -11,7 +11,7 @@ int main (){
         }
     }
     if(sum == n){
-        printf("yes");
+        printf("yes ");
     }
     else{
         printf("No");
